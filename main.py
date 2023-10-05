@@ -171,8 +171,6 @@ def NextMove():
         pgn_file.writelines(chess.Board().variation_san([chess.Move.from_uci(m) for m in line]))
     subprocess.call([nibbler, "temp.pgn"])
 
-    # BoardPreview(board, board.turn)
-    # not needed anymore with nibbler
     choice = input("\nYour move?\n")	
     choice = board.uci(board.parse_san(choice))
     board.push_uci(choice)
