@@ -1,0 +1,19 @@
+{
+    "folder": "C:/Users/Megaport/Desktop/Prep/",
+    "nibbler": "D:\\nibbler-2.4.0-windows\\nibbler.exe",
+    "limit_min_move": 10,
+    "liurl_base": "https://explorer.lichess.ovh/lichess",
+    "liurl_speed": "classical",
+    "liurl_ratings": "1800,2000,2200",
+    "liurl_moves": 999,
+    "liurl_topGames": 0,
+    "liurl_recentGames": 0,
+    "comments": {
+        "folder": "Workspace: where the data files will be generated and read",
+        "nibbler": "Path to Nibbler chess program",
+        "liurl_speed": "Multiple speed can be added like 'classical,rapid,blitz,bullet' for exemple",
+        "liurl_ratings": "Same has speeds, it jumps by chunk of 200elo, look at lichess API docs for specifics",
+        "limit_min_move":  "Stop looking at lines without enough data (move)",
+        "others": "No need for change for standard use"
+    }
+}
